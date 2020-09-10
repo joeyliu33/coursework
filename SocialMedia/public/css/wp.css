@@ -1,0 +1,93 @@
+body { 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgb(247, 228, 231);
+    color: black;
+}
+
+#navbar {
+    color:white;
+    border-color:rgb(221, 101, 121);
+    border-style:solid;
+    padding:8px;
+    background-color:rgb(221, 101, 121);
+}
+
+#navbar a{
+    color:white;
+}
+
+#homebutton a{
+    font-weight:bold;
+    font-size:larger;
+    color:white;
+}
+
+#inputbox{
+    width:210px;
+}
+
+#post{
+    border-color: black;
+    border-style: solid;
+    margin: 50px;
+    padding: 20px;
+}
+#content{
+    width: 800px;
+    margin: auto;
+    padding:20px;
+}
+#nameinput{
+    border-color:rgb(226, 154, 166);
+    border-style:solid;
+    background-color:rgb(247, 231, 234);
+}
+#messageinput{
+    border-color:rgb(226, 154, 166);
+    border-style:ridge;
+    background-color:rgb(248, 215, 221);
+}
+#postcontent{
+    border-color:rgb(226, 154, 166);
+    border-style:dotted;
+    background-color: rgb(247, 214, 219);
+    padding:12px;
+}
+
+h1 { font-weight: bold; color:indianred; }
+h2 { font-weight: bold; color: rgb(206, 107, 107); font-family:Georgia; font-size:x-large; }
+h3 { font-weight: bold; color: rgb(233, 129, 129); font-family:Georgia; font-size:large; }
+h4 { margin-left: 0em; color: rgb(128, 125, 125); font-size:medium;}
+
+p { margin-left: 0em; color: rgb(206, 201, 201);}
+label {color:rgb(119, 117, 117);}
+table { font-family: Verdana, Arial, Helvetica, sans-serif; }
+caption { font-weight: bold; }
+th { font-weight: bold; background-color: blue; color: white; padding: 2px; }
+td { padding: 2px; }
+/* tr { background-color: white; } */
+
+table.bordered    { border: solid; border-width: thin; }
+table.bordered td { border: solid; border-width: thin; }
+table.bordered th { border: solid; border-width: thin; border-color: black; }
+
+address { margin-left: 0in; font-style: italic; }       
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.alert { font-weight: bold; font-style: italic; color: red; }
+
+.eg { 
+    font-family: Monaco, Courier, "Courier New", monospace;
+    background-color: #FFFFE0;
+    border-style: groove; 
+    border: thin;
+    padding: 5px;
+}
+
+.antispam { display:none;}
